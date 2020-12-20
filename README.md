@@ -1,22 +1,18 @@
-# API-flask
+# API-Server Python/Flask
 
-This is an exercise with flask in order to show how it can be implemented.
+Para probar la aplicacion tenemos la aplicacion del cliente en el siguiente repositorio:
 
-This API is going to be consumed by a web application also developed with flask. Here is the link to the repository:
+https://github.com/Etebanist/API-Web-Flask-Twitter
 
-https://github.com/eso31/WebApp-flask
+# NOTA
+Es importante contar con las llaves de twitter para uso de este proyecto, https://apps.twitter.com/
 
-
-# Important
-In order to make this application work, you must have the secrets for the twitter API. You can get them at https://apps.twitter.com/
-
-How to run:
+Para correr el servidor se debe introducir en consola el siguiente comando:
 
 ```
 python api.py
 ```
 
-If you want to verify if the API is working properly without the web application, you should access http://localhost:5000/search/spotgabbiani
+Un ejemplo para checar que la API corre correctamente es el siguiente http://localhost:5000/search/moises
 
-
-You should get a json with all the information.
+Tambien puede ver el resultado en la aplicacion de POSTMAN
